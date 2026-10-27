@@ -1,0 +1,7 @@
+[mysqld]
+port = 3306
+bind-address = 0.0.0.0
+socket = /var/run/mysqld/mysqld.socket
+datadir = /var/lib/mysql
+log-error = /var/log/mysql/error.log
+pid-file = /var/run/mysqld//ysqld.pid
